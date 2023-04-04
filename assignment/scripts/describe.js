@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// Created a variable called secret and left the value as undefined.
-// 
-// 
-//
+// We created a variable called secret and left the value as undefined.
+// Next we created a variable called code and set it to the number 123.
+// Next we are checking to see if the value of code is exactly equal to the number 123.
+// If the code is exactly equal to 123, the value of secret becomes the string 'super', and the value of the variable code is multiplied by 2.
+// Next we are checking if the new value of code is greater than 250
+// If the new value of code is greater than 250, the value of secret will become the string 'duper'
+// Finally, since the value of code is exactly equal to 123, but since the new value of code is less than 250,
+// console.log will print the string 'super'.
 
 //CODE
 /*
@@ -70,10 +74,19 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First, we created a variable called isStudent and set it equal to the boolean value of true.
+// Next we created a variable called age and set the value equal to the number 34.
+// Next we created a variable called zip and set the value equal to the number 55407.
+// Then we are checking to see if the value of isStudent is exactly equal to the boolean value true AND that the value of zip is also greater than 80000.
+// If both of these conditions are true, the console.log will print 'You're a student on the West Coast!'. 
+// If either of the above conditions are false, we will next check to see if the value of isStudent is exactly equal to false OR that the value of age is set to less than 30.
+// If either of these conditions are true, the console.log will print 'What are your hobbies?'.
+// If neither of these conditions are true, we will then check if the value of the variable isStudent is exactly equal to true.
+// If this condition is true, the console.log will print 'Welcome to Prime!'.
+// If none of the above conditions are true, the console.log will print 'How about the weather?'.
+// Finally, since the value of zip is less than 80000, the value of age is greater than 30, and the value of isStudent is set to true
+// console.log will print 'Welcome to Prime!'.
+
 
 //CODE
 /*
@@ -129,13 +142,17 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - If we want to set both colorOne and colorTwo to 'purple' we would want to add:
 if (mix === true) {
   colorOne = 'purple';
+  //colorTwo = 'purple';
 }
 */
 
