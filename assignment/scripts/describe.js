@@ -48,7 +48,7 @@ if (name === 'Mary') {
 // We created a variable called secret and left the value as undefined.
 // Next we created a variable called code and set it to the number 123.
 // Next we are checking to see if the value of code is exactly equal to the number 123.
-// If the code is exactly equal to 123, the value of secret becomes the string 'super', and the value of the variable code is multiplied by 2.
+// If the value of code is exactly equal to 123, the value of secret becomes the string 'super', and the value of the variable code is multiplied by 2.
 // Next we are checking if the new value of code is greater than 250
 // If the new value of code is greater than 250, the value of secret will become the string 'duper'
 // Finally, since the value of code is exactly equal to 123, but since the new value of code is less than 250,
@@ -149,10 +149,10 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX - If we want to set both colorOne and colorTwo to 'purple' we would want to add:
+// FIX - If we want to set both colorOne and colorTwo to 'purple' we would want to add colorTwo = 'purple'; as below:
 if (mix === true) {
   colorOne = 'purple';
-  //colorTwo = 'purple';
+  //FIX - colorTwo = 'purple';
 }
 */
 
@@ -164,7 +164,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - since we are checking the two variables for AND instead of OR, so we would replace || with && as below:
 if (temp > 39 || time >= 4) {
+  // FIX - if (temp > 39 && time >= 4)
   console.log('throw away the food!');
 }
 */
@@ -173,9 +175,12 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+// FIX - both values should be variables, minAge is set to a constant, 
+// so you would replace the declaration const with the declaration let as below:
 /*
 let age = 21;
 const minAge = 21;
+// FIX - let minAge = 21;
 
 if(minAge <= age) {
   console.log('no entry');
