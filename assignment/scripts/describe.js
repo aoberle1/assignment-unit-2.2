@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// Created variable called name and set the value of it to the string 'Dane'.
-// 
-// 
-//
+// Created variable called name and set the value of it equal to the string 'Dane'.
+// Next we are checking if value of name is exactly equal to the string 'Mary'.
+// The string 'Dane' which is the value of name is not exactly equal to the string 'Mary'.
+// console.log will print 'How do you do?'
 
 //CODE
 /*
@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
+// Created a variable called secret and left the value as undefined.
 // 
 // 
 //
