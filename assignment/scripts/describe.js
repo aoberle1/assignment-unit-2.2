@@ -48,7 +48,7 @@ if (name === 'Mary') {
 // We created a variable called secret and left the value as undefined.
 // Next we created a variable called code and set it to the number 123.
 // Next we are checking to see if the value of code is exactly equal to the number 123.
-// If the value of code is exactly equal to 123, the value of secret becomes the string 'super', and the value of the variable code is multiplied by 2.
+// If the value of code is exactly equal to 123, the value of 'secret' becomes the string 'super', and the value of the variable 'code' is multiplied by 2.
 // Next we are checking if the new value of code is greater than 250
 // If the new value of code is greater than 250, the value of secret will become the string 'duper'
 // Finally, since the value of code is exactly equal to 123, but since the new value of code is less than 250,
@@ -164,7 +164,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-// FIX - since we are checking the two variables for AND instead of OR, so we would replace || with && as below:
+// FIX - since we are checking the two variables for AND instead of OR, we would replace || with && as below:
 if (temp > 39 || time >= 4) {
   // FIX - if (temp > 39 && time >= 4)
   console.log('throw away the food!');
