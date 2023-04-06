@@ -29,7 +29,7 @@ if (number >= 2) {
 // Created variable called name and set the value of it equal to the string 'Dane'.
 // Next we are checking if value of name is exactly equal to the string 'Mary'.
 // The string 'Dane' which is the value of name is not exactly equal to the string 'Mary'.
-// console.log will print 'How do you do?'
+// console.log will print the string 'How do you do?'
 
 //CODE
 /*
@@ -85,7 +85,7 @@ console.log(secret)
 // If this condition is true, the console.log will print 'Welcome to Prime!'.
 // If none of the above conditions are true, the console.log will print 'How about the weather?'.
 // Finally, since the value of zip is less than 80000, the value of age is greater than 30, and the value of isStudent is set to true
-// console.log will print 'Welcome to Prime!'.
+// console.log will print the string 'Welcome to Prime!'.
 
 
 //CODE
@@ -175,14 +175,14 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
-// FIX - both values should be variables, minAge is set to a constant, 
-// so you would replace the declaration const with the declaration let as below:
+// FIX - the console logs would currently print the opposite of what you want,
+// so change <= to >=
 /*
 let age = 21;
 const minAge = 21;
-// FIX - let minAge = 21;
 
 if(minAge <= age) {
+  // FIX - if (minAge >= age){
   console.log('no entry');
 } else {
   console.log('enter');
