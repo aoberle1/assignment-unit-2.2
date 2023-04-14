@@ -1,3 +1,5 @@
+console.log( 'js' );
+
 // WHAT IS THIS EVEN DOING?
 
 // For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
@@ -193,3 +195,12 @@ if(minAge <= age) {
 }
 */
 
+// Testing for Question #6
+let age = 21;
+const minAge = 21;
+
+if( minAge > age ) {
+  console.log( 'no entry' );
+} else {
+  console.log( 'enter' );
+}
