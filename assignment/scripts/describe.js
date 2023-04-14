@@ -149,6 +149,10 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - switch around colorOne and colorTwo, we want One set to blue and Two set to red
+let colorOne = 'blue';
+let colorTwo = 'red';
+
 // FIX - If we want to set both colorOne and colorTwo to 'purple' we would want to add colorTwo = 'purple'; as below:
 if (mix === true) {
   colorOne = 'purple';
@@ -182,7 +186,7 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
-  // FIX - if (minAge >= age){
+  // FIX - if (minAge > age){
   console.log('no entry');
 } else {
   console.log('enter');
